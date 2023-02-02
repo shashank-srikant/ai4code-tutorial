@@ -8,7 +8,9 @@ You should navigate to https://colab.research.google.com/ and pick to load the *
 
 ## Local setup
 
-This assumes you have `conda` installed to manage different environments.
+This assumes you have `conda` installed to manage different environments.  
+To install `conda`, see https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html
+
 Run these three commands once `conda` is setup.
 ```
 conda create -n ai4code-tutorial python=3.8.11

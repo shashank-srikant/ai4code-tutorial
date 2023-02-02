@@ -1,5 +1,7 @@
 import torch
 import pickle 
+import os
+
 
 def convert_to_onehot(inp, vocab_size, device='cpu'):
 	onehot = torch.zeros(inp.size(0), inp.size(1), vocab_size, device=device).scatter_(2, inp.unsqueeze(2), 1.)

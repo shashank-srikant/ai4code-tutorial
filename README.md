@@ -13,7 +13,7 @@ To install `conda`, see https://docs.conda.io/projects/conda/en/latest/user-guid
 
 Run these three commands once `conda` is setup.
 ```
-conda create -n ai4code-tutorial python=3.8.11
+conda create -n ai4code-tutorial python=3.8
 conda activate ai4code-tutorial
 pip install -r requirements.txt
 ```

@@ -1,3 +1,4 @@
 __pycache__/
 dataset/*.json
 dataset/*.jsonl
+results/results_*
